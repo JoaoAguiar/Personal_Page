@@ -417,12 +417,33 @@ body {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
 }
-.project_bottom {
+.project_1 {
   background: #fff6a9;
-  margin-left: 485px;
-  margin-right: 175px;
+  margin-left: 285px;
+  margin-right: 25px;
   margin-bottom: 25px;
   margin-top: 25px  ;
+  width: 20%;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.project_2 {
+  background: #fff6a9;
+  margin-left: 100px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
   width: 20%;
   height: 200px;
   display: inline-block;
@@ -447,7 +468,10 @@ body {
 .project_right:hover {
   box-shadow: 5px 10px 16px 5px rgba(0, 0, 0);
 }
-.project_bottom:hover {
+.project_1:hover {
+  box-shadow: 5px 10px 16px 5px rgba(0, 0, 0);
+}
+.project_2:hover {
   box-shadow: 5px 10px 16px 5px rgba(0, 0, 0);
 }
 .aux {
@@ -499,7 +523,7 @@ body {
 .contact_title h1 {
   font-family: 'Londrina Solid', cursive;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 235px;
   margin-left: 75px;
   display: flex;
   justify-content: center;
